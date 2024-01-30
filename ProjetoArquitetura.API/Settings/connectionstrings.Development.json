@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=bd.thor.hostazul.com.br,3533; User ID=139_fernando; Password=szxuj1tipnvhykqfwbcm;Initial Catalog=139_fernando;"
+  }
+}

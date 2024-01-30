@@ -1,0 +1,22 @@
+﻿@model ProjetoArquitetura.Models.Models.FornecedorModel
+
+
+@{
+    ViewData["Title"] = "Fornecedor";
+}
+
+<h4>Cadastrar fornecedor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <partial name="_Formulario" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para lista</a>
+</div>
+
